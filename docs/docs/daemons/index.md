@@ -8,3 +8,12 @@ links:
     related:
     featured:
 ---
+
+## Daemon Actions
+When managing daemons, you can perform actions like start, stop, and restart on specific servers. This allows for:
+
+- **Targeted maintenance**: Restart a daemon on a single server without affecting others
+- **Rolling updates**: Update daemons one server at a time for zero downtime
+- **Troubleshooting**: Isolate issues to specific servers
+
+See [Trigger Pipeline Action on Specific Servers](/docs/api/trigger-pipeline-action-specific-servers) for API usage examples.

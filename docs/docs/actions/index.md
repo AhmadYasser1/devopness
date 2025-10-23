@@ -20,3 +20,11 @@ As in our daily routine of managing software projects we need to “take an acti
 Each step in a pipeline becomes an action step, that is then executed by Devopness according to how a pipeline was configured at that point in time.
 
 For your convenience, each action step output log is made available for you in Devopness action details view.
+
+## Server Targeting
+When triggering pipeline actions, you can specify which servers should execute the action. This allows for:
+- **Canary deployments**: Deploy to a single server first for testing
+- **Selective maintenance**: Restart services on specific servers
+- **Rolling updates**: Deploy to servers one at a time for zero-downtime updates
+
+See [Trigger Pipeline Action on Specific Servers](/docs/api/trigger-pipeline-action-specific-servers) for API usage examples.

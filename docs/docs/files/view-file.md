@@ -24,3 +24,5 @@ required_permissions:
 
   - The details of the configuration file will be displayed, showing the file's name, path, content, and metadata.
   - On this page, you can also see when the file was created and last updated.
+
+

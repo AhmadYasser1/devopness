@@ -17,6 +17,10 @@ required_permissions:
 1. Find the `Applications` card
 1. Click `View` in the `Applications` card to see a list of existing `Applications`
 1. Click `DEPLOY` on the application you want to deploy
+1. (Optional) Select specific servers for deployment
+    - If the application is linked to multiple servers, you can choose which servers should receive the deployment
+    - By default, if no servers are selected, the deployment will execute on all linked servers
+    - This is useful for canary deployments or rolling updates
 1. Follow the prompts, then click `Next`
 1. Review deploy information then click `Confirm`
    > A notification popup will be displayed, confirming that the deployment has been triggered
